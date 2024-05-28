@@ -1,0 +1,24 @@
+server:
+  port: 5050
+  servlet:
+    context-path: /todo
+
+
+
+spring:
+  application:
+    name: todo-app
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/todo
+    username: postgres
+    password: 123
+  jpa:
+    hibernate:
+      show-sql: true
+      ddl-auto: create-drop
+    properties:
+      format_sql: true
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
