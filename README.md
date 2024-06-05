@@ -5,9 +5,9 @@ This application is designed to manage a list of tasks or "todos". It provides f
 
 ## Technologies Used
 - **Spring Boot**: Framework for creating stand-alone, production-grade Spring-based applications.
-- **Spring Data JPA**: For accessing and managing data between Java objects and the database.
-- **H2 Database**: In-memory database for development and testing.
+- **PostgreSQL**: Relational database for storing persistent data.
 - **Lombok**: To reduce boilerplate code for model objects.
+- **JUnit**: Framework for unit testing Java applications.
 
 ## Features
 
