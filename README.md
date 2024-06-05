@@ -21,12 +21,7 @@ This application is designed to manage a list of tasks or "todos". It provides f
 ## Setup
 1. Clone the repository.
 2. Configure your database credentials in "application.yml".
-3.run spring app from IDE:
-   OR
-   FROM CL
+3. run spring app from IDE.
+4. or run from CommandLine :
    ```bash
    mvn spring-boot:run
-
-
- 
-2.ذخرببهلعقث 
