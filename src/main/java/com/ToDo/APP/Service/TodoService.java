@@ -54,7 +54,8 @@ public class TodoService {
 
 
     public TodoDto get(Long id) {
-        Todo todo = this.todoRepository.findById(id).orElseThrow(()->new NotFoundException(String.format("No Record with the id [%s] was found in our database", id)));
+        Todo todo = this.todoRepository.findById(id).orElseThrow(()->
+                    new NotFoundException(String.format("No Record with the id [%s] was found in our database", id)));
         TodoDto todoDto = TodoDto.builder()
                 .id(todo.getId())
                 .timestamp(todo.getTimestamp())
